@@ -1,0 +1,320 @@
+/*container*/
+/*xs*/
+@media (min-width: 475px) {}
+
+/*small*/
+@media (min-width: 640px) {}
+
+/*medium*/
+@media (min-width: 768px) {}
+
+/*large*/
+@media (min-width: 1024px) {}
+
+/*extra-large*/
+@media (min-width: 1280px) {}
+
+/*2 extra-large*/
+@media (min-width: 1536px) {}
+
+
+
+
+
+@media (min-width: 475px) {
+    a{
+        text-decoration: none;
+        color: var(--text-col);
+        font-size: 2.7rem;
+        margin-left: 40px;
+        padding: auto;
+        cursor: pointer;
+    }
+
+    span{
+        color: #C16E36;
+    }
+    
+    .nav__menu{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        gap: 2em;
+        text-transform: capitalize;
+    }
+    
+    .nav__link {
+        font-size: var(--size-2xl);
+        text-decoration: none;
+        font-weight: 600;
+        color: var(---color-slate600);
+        letter-spacing: -0.05em;
+        transition: color 0.3s;
+        list-style: none;
+    }
+    
+    .nav__link:hover{
+        color: var(--color-rose);
+    }
+    
+    .nav__line {
+        border: 1px solid var(--color-slate800);
+        padding-top: 1.5em;
+    
+    }
+    .nav__sun{
+        color: var(---color-slate600);
+        width: var(--size-base);
+        height: var(--size-base);
+    }
+    .nav__resume{
+        font-size: var(--size-2lg);
+    }
+
+    .hero{
+        gap: 1.5rem;
+       }
+       .hero img{
+           width: auto;
+           height: 300px;
+       }
+       .h__3{
+        font-size: var(--size-2xl);
+       }
+       .h__1{
+        font-size: var(--size-5xl);
+       }
+       .h__2{
+        font-size: var(--size-5xl);
+       }
+    
+    .letter {
+        color: var(--color-rose);
+        font-weight: 600;
+    }
+    
+    strong{
+        color: var(--span-col);
+    }
+    
+    .hero__p{
+        font-size: var(--size-xl);
+        color: var(--text-col);
+    }
+    
+    .hero button {
+        font-size: var(--size-xl);
+    }
+
+    .about img {
+        height: 500px;
+        width: auto;
+        /*margin-left:  600px;*/
+        margin: 150px;
+    }
+    .about .div__about{
+        display: block;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-left: 2px solid var(--color-slate800);
+        padding-left: 20px;
+        line-height: 1;
+        padding: 50px;
+        text-align: center;
+        letter-spacing: -0.05em;
+        gap: 1rem;
+    }
+    .about .h__1{
+        margin-bottom: 50px;
+        gap: 1.5rem;
+        text-transform: uppercase;
+        font-size: var(--size-4xl);
+    }
+    .hero__p{
+        max-width: 60ch;
+        font-size: var(--size-lg);
+        color: var(--text-col);
+        text-align: center;
+        letter-spacing: -0.05em;
+        list-style: 0.9;
+        font-weight: 600;
+        margin: 0;
+    }
+
+
+    
+}
+
+
+/*medium*/
+@media (min-width: 768px) {
+    .nav-head .logo a{
+        text-decoration: none;
+        color: var(--text-col);
+        font-size: 2.7rem;
+        margin-left: 40px;
+        padding: auto;
+        cursor: pointer;
+    }
+    span{
+        color: #C16E36;
+    }
+    
+    .nav__menu{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        gap: 2em;
+        text-transform: capitalize;
+    }
+    
+    .nav__link {
+        font-size: var(--size-2xl);
+        text-decoration: none;
+        font-weight: 600;
+        color: var(---color-slate600);
+        letter-spacing: -0.05em;
+        transition: color 0.3s;
+        list-style: none;
+    }
+    
+    .nav__link:hover{
+        color: var(--color-rose);
+    }
+    
+    .nav__line {
+        border: 1px solid var(--color-slate800);
+        padding-top: 1.5em;
+    
+    }
+    .nav__sun{
+        color: var(---color-slate600);
+        width: var(--size-base);
+        height: var(--size-base);
+    }
+    .nav__resume{
+        font-size: var(--size-2lg);
+    }
+}
+
+
+
+/*large*/
+@media (min-width: 1024px) {
+    .nav-head .logo a{
+        text-decoration: none;
+        color: var(--text-col);
+        font-size: 1.rem;
+        margin-left: 40px;
+        padding: auto;
+        cursor: pointer;
+    }
+    span{
+        color: #C16E36;
+    }
+    
+    .nav__menu{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        gap: 2em;
+        text-transform: capitalize;
+    }
+    
+    .nav__link {
+        font-size: var(--size-2xl);
+        text-decoration: none;
+        font-weight: 600;
+        color: var(---color-slate600);
+        letter-spacing: -0.05em;
+        transition: color 0.3s;
+        list-style: none;
+    }
+    
+    .nav__link:hover{
+        color: var(--color-rose);
+    }
+    
+    .nav__line {
+        border: 1px solid var(--color-slate800);
+        padding-top: 1.5em;
+    
+    }
+    .nav__sun{
+        color: var(---color-slate600);
+        width: var(--size-base);
+        height: var(--size-base);
+    }
+    .nav__resume{
+        font-size: var(--size-2lg);
+    }
+
+       .h__1{
+        font-size: var(--size-6xl);
+       }
+       .h__2{
+        font-size: var(--size-6xl);
+       }
+    
+    .letter {
+        color: var(--color-rose);
+        font-weight: 600;
+    }
+    
+    strong{
+        color: var(--span-col);
+    }
+    
+    .hero__p{
+        font-size: var(--size-lg);
+        color: var(--text-col);
+    }
+    
+    .hero button {
+        font-size: var(--size-lg);
+    }
+}
+
+
+/*extra-large*/
+@media (min-width: 1280px) {
+    .hero{
+        gap: 2rem;
+       }
+       .hero img{
+           width: auto;
+           height: 500px;
+       }
+       .h__3{
+        font-size: var(--size-4xl);
+       }
+       .h__1{
+        font-size: var(--size-7xl);
+       }
+       .h__2{
+        font-size: var(--size-7xl);
+       }
+    
+    .letter {
+        color: var(--color-rose);
+        font-weight: 600;
+    }
+    
+    strong{
+        color: var(--span-col);
+    }
+    
+    .hero__p{
+        font-size: var(--size-2xl);
+        color: var(--text-col);
+    }
+    
+    .hero button {
+        font-size: var(--size-2xl);
+    }
+
+}
